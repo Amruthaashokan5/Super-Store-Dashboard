@@ -13,8 +13,8 @@ Payment Mode Analysis (COD, Online, Cards)
 Ship Mode performance comparison
 Top Sub-Category Sales insights
 Map visualization showing state-level sales distribution
-🎯 Purpose
 
+🎯 Purpose
 This dashboard helps businesses track performance, understand market trends, and make data-driven decisions by providing insights into sales and profit patterns across different regions and product categories.
 
 🛠 Tools Used
