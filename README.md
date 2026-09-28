@@ -1,23 +1,54 @@
-# Super-Store-Dashboard
-📊 Super Store Sales Dashboard 
+# 📊 Super Store Sales Dashboard
 
-This Super Store Sales Dashboard is an interactive Power BI report designed to analyze and visualize sales performance across multiple business dimensions such as region, segment, category, ship mode, and payment mode. The dashboard provides a clear overview of key performance indicators and helps in identifying sales trends, profitable areas, and customer behavior patterns.
+Interactive Power BI dashboard analysing **USD 1.57M in sales and 175K profit** across 4 regions, 3 product categories and 4 ship modes (2019-2020).
 
-🔑 Key Highlights
-KPI Cards displaying overall Sales, Quantity, Profit, and Average Delivery
-Region-wise filter buttons (Central, East, South, West) for quick analysis
-Monthly Sales & Profit Trend Analysis (Year-wise comparison)
-Sales distribution by Segment (Consumer, Corporate, Home Office)
-Category-wise Sales breakdown (Technology, Furniture, Office Supplies)
-Payment Mode Analysis (COD, Online, Cards)
-Ship Mode performance comparison
-Top Sub-Category Sales insights
-Map visualization showing state-level sales distribution
+![Super Store Sales Dashboard](SuperStoreDashboard.png)
 
-🎯 Purpose
-This dashboard helps businesses track performance, understand market trends, and make data-driven decisions by providing insights into sales and profit patterns across different regions and product categories.
+## Overview
 
-🛠 Tools Used
-Power BI
-Data Modeling & DAX
-Interactive Visualizations and Filters
+The dashboard analyses sales performance by region, segment, category, ship mode and payment mode. It gives a quick view of key performance indicators and helps identify sales trends, profitable areas and customer behaviour patterns.
+
+## Key Highlights
+
+- KPI cards for Sales, Quantity, Profit and Average Delivery (days)
+- Region filter buttons (Central, East, South, West)
+- Monthly sales and profit trends, compared year by year
+- Sales by segment (Consumer, Corporate, Home Office)
+- Sales by category (Office Supplies, Technology, Furniture)
+- Sales by payment mode (COD, Online, Cards)
+- Sales by ship mode
+- Profit by sub-category
+- Map of sales by state
+
+## Key Insights
+
+- Sales grew 77% in 2020 (USD 565K to 1.00M), but profit grew only 14%, so margin fell from 14.5% to 9.3%.
+- Technology had the best margin (19%); Furniture had the lowest (2%).
+- Tables lost about USD 11K in profit; Copiers were the top profit sub-category (USD 43K).
+- West had the highest margin (13%); Central had the lowest (8%).
+- Consumer is 48% of sales, and COD is the most used payment mode (43%).
+- Average delivery time is 3.9 days; Standard Class is the slowest at about 5 days.
+
+## DAX Measures
+
+| Measure | Purpose |
+|---|---|
+| Total Sales | Sum of sales |
+| Total Profit | Sum of profit |
+| Profit Margin % | Total Profit divided by Total Sales |
+| Avg Delivery Days | Average days from order date to ship date |
+
+## Data
+
+5,900 order lines across 3,003 orders, from 1 January 2019 to 31 December 2020.
+
+## Tools Used
+
+- Power BI
+- DAX
+- Interactive visuals and filters
+
+## Files
+
+- `SalesDashboard.pbix`: Power BI report
+- `SuperStoreDashboard.png`: dashboard screenshot
